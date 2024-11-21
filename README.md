@@ -9,7 +9,7 @@ Este projeto é uma aplicação web construída com **FastAPI**, que permite ger
 - **SQLAlchemy** - ORM para interação com o banco de dados.
 - **SQLite** - Banco de dados relacional (pode ser substituído por outros, como PostgreSQL ou MySQL, conforme necessidade).
 - **Pydantic** - Biblioteca para validação e serialização de dados.
-- **Jinja2** - Motor de templates para renderização de HTML (se aplicável).
+- **Jinja2** - Motor de templates para renderização de HTML.
 - **Git** - Controle de versão.
 
 ## Funcionalidades
@@ -17,15 +17,8 @@ Este projeto é uma aplicação web construída com **FastAPI**, que permite ger
 - **Criação de Ordens de Serviço**: Permite que os usuários registrem novas ordens para clientes.
 - **Cadastro de Clientes**: Possibilita o gerenciamento de informações dos clientes.
 - **Gestão de Status**: Acompanhe o andamento das ordens de serviço com status como "Em andamento", "Concluída", etc.
-- **Autenticação de Usuários**: (Se implementado) Protege rotas para acesso restrito.
+- **Autenticação de Usuários**: (Ainda não implementado) Protege rotas para acesso restrito.
 
-## Pré-requisitos
-
-Antes de começar, você precisa ter os seguintes softwares instalados:
-
-- Python 3.7+
-- pip (gerenciador de pacotes Python)
-- Git
 
 ## Instalação
 
