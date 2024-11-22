@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Ordens de Serviço</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Cliente</th>
+                <th>Descrição</th>
+                <th>Status</th>
+                <th>Data Abertura</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for ordem in ordens %}
+            <tr>
+                <td>{{ ordem.id }}</td>
+                <td>{{ ordem.cliente.nome }}</td>
+                <td>{{ ordem.descricao }}</td>
+                <td>{{ ordem.status }}</td>
+                <td>{{ ordem.data_abertura }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
